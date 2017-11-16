@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: one
+  date_of_issue: 2017-11-14
+  terms_of_payment: MyString
+  hourly_rate: 9.99
+  tax_rate: 1
+  taxable: 9.99
+  withholding: 1
+  total_hours: 9.99
+  discount: 1
+  total_cost: 9.99
+  paid: MyString
+
+two:
+  customer: two
+  date_of_issue: 2017-11-14
+  terms_of_payment: MyString
+  hourly_rate: 9.99
+  tax_rate: 1
+  taxable: 9.99
+  withholding: 1
+  total_hours: 9.99
+  discount: 1
+  total_cost: 9.99
+  paid: MyString
