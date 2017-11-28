@@ -9,7 +9,7 @@ Feature: create an activity
   Scenario: create a valid activity
     Given I am on the page of the activities
     When I click on "New Activity"
-    And I fill in the form with valid data
+    And I fill in the form of the activity with valid data
     Then I am on the page of the activities
     And I should see the new activity in the list
 
