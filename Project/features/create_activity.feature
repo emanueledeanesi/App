@@ -13,8 +13,8 @@ Feature: create an activity
     Then I am on the page of the activities
     And I should see the new activity in the list
 
-  Scenario: error when entering invalid data
+  Scenario: error when entering invalid total hours of work
     Given I am on the page of the activities
     When I click on "New Activity"
-    And I fill in the form with an invalid data
+    And I fill in the form with an invalid total hours of work
     Then I should see an error
