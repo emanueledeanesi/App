@@ -7,11 +7,11 @@ Feature: create a customer
     Given I am on the page of customers
     When I click on "New Customer"
     And I fill in the form of the customer with valid data
-    Then I am on the page of customers
+    Then I am on the page of the customers
     And I should see the new customer in the list
 
   Scenario: error when entering invalid phone number
-    Given I am on the page of customers
+    Given I am on the page of the customers
     When I click on "New Customer"
     And I fill in the form with an invalid phone number
     Then I should see an error
