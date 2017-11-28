@@ -13,8 +13,8 @@ Feature: create a bill
     Then I am on the page of the bills
     And I should see the new bill in the list
 
-  Scenario: error when entering invalid data
+  Scenario: error when entering invalid hourly rate
     Given I am on the page of the bills
     When I click on "New Bill"
-    And I fill in the form with an invalid data
+    And I fill in the form with an invalid hourly rate
     Then I should see an error
