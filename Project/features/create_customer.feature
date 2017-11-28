@@ -6,7 +6,7 @@ Feature: create a customer
   Scenario: create a valid customer
     Given I am on the page of customers
     When I click on "New Customer"
-    And I fill in the form with valid data
+    And I fill in the form of the customer with valid data
     Then I am on the page of customers
     And I should see the new customer in the list
 
