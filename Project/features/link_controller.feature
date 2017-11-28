@@ -14,4 +14,4 @@ Feature: move on pages
   Scenario: return on home page
     Given I am on the page of the customers
     When I click on "Home"
-    Then I should see be on the home page
+    Then I am on the home page
