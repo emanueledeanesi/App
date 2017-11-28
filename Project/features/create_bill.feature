@@ -9,7 +9,7 @@ Feature: create a bill
   Scenario: create a valid bill
     Given I am on the page of the bills
     When I click on "New Bill"
-    And I fill in the form with valid data
+    And I fill in the form of the bill with valid data
     Then I am on the page of the bills
     And I should see the new bill in the list
 
