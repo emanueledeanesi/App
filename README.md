@@ -26,4 +26,5 @@ In order to test the app according to the Behaviour Driven Development paradigm,
 -  gem 'ffaker'
 -  gem 'cucumber-rails'
 -  gem 'selenium-webdriver'
+
 We implement the test on the main functions and methods as edit, view, delete entities and the result of the methods.
