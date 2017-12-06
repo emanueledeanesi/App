@@ -2,7 +2,7 @@
 
 Project developed by:
 - Emanuele Deanesi 185457
-- Cladio Bettin 186690
+- Claudio Bettin 186690
 
 This simple application was implemented using the web-application framework Ruby on Rails. 
 This app was designed for companies which want to keep track of their customers and the related activities and invoices to pay. 
