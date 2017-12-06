@@ -7,7 +7,7 @@ Project developed by:
 This simple application was implemented using the web-application framework Ruby on Rails. 
 This app was designed for companies which want to keep track of their customers and the related activities and invoices to pay. 
 
-Each customer entity must be filled in with name, surname, company, address, phone number, VAT number and email in order to have a complete rappresentation of the client.
+Each customer entity must be filled in with name, surname, company, address, phone number, VAT number and email in order to have a complete representation of the client.
 
 When you create an activity you have to choose from a select box, which contains all the fullname of the customers created, the customer you want to relate at the activity. Each activity has a short description, a start date, an end date and the total hours of work. 
 
