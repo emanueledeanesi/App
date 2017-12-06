@@ -4,7 +4,7 @@ Feature: create a bill
   I want to create a new bill
 
   Background:
-    Given there is a customer called "Andrea Rossi"
+    Given there is a customer
 
   Scenario: create a valid bill
     Given I am on the page of the bills
@@ -17,4 +17,4 @@ Feature: create a bill
     Given I am on the page of the bills
     When I click on "New Bill"
     And I fill in the form with an invalid hourly rate
-    Then I should see an error
+    Then I expect to get an error message

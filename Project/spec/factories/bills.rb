@@ -7,10 +7,9 @@ FactoryBot.define do
     withholding '20'
     discount  '0.0'
     paid  'no'
-
-    total_hours
-    taxable
-    total_cost
+    total_hours = @total_hours
+    taxable = @get_taxable
+    total_cost = @get_total_cost
     customer
 
   end

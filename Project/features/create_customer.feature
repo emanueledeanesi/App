@@ -4,7 +4,7 @@ Feature: create a customer
   I want to create a new customer
 
   Scenario: create a valid customer
-    Given I am on the page of customers
+    Given I am on the page of the customers
     When I click on "New Customer"
     And I fill in the form of the customer with valid data
     Then I am on the page of the customers
@@ -14,4 +14,4 @@ Feature: create a customer
     Given I am on the page of the customers
     When I click on "New Customer"
     And I fill in the form with an invalid phone number
-    Then I should see an error
+    Then I expect to get an error message

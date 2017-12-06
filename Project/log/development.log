@@ -7126,3 +7126,1247 @@ Processing by CustomersController#edit as HTML
 Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-28 15:07:10 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 929ms (Views: 917.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-11-28 15:07:13 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (8.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (49.4ms)
+Completed 200 OK in 170ms (Views: 83.3ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2017-11-28 15:07:16 +0100
+Processing by CustomersController#new as HTML
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (62.4ms)
+  Rendered customers/new.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 111ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-11-28 15:16:01 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 15:16:05 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-11-28 15:16:06 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (11.0ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  Rendered bills/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 151ms (Views: 77.2ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-11-28 15:16:09 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (25.7ms)
+  Rendered bills/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 102ms (Views: 70.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-11-28 15:16:51 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  Rendered bills/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 15:16:55 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-11-28 15:16:56 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (12.1ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 96ms (Views: 54.2ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-11-28 15:16:57 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (20.9ms)
+  Rendered activities/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 83ms (Views: 66.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-11-28 17:22:18 +0100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  Rendered bills/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 728ms (Views: 694.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 17:22:54 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-11-28 17:22:56 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 103ms (Views: 87.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-11-28 17:22:59 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (159.2ms)
+  Rendered activities/new.html.erb within layouts/application (161.1ms)
+Completed 200 OK in 239ms (Views: 206.2ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2017-11-28 17:23:06 +0100
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m9ZQgWOSMceIRgfsC0T9yukgevEqUvQaGJFPzuXSpYi01/diO5MwOe/HMaZAxK2/Ku2BFemNd9lMxColA9vfWg==", "activity"=>{"customer_id"=>"5", "description"=>".", "start_date(1i)"=>"2017", "start_date(2i)"=>"11", "start_date(3i)"=>"28", "end_date(1i)"=>"2017", "end_date(2i)"=>"11", "end_date(3i)"=>"28", "total_hours_of_work"=>"5"}, "commit"=>"Create Activity"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (44.9ms)[0m  [1m[32mINSERT INTO "activities" ("customer_id", "description", "start_date", "end_date", "total_hours_of_work", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["customer_id", 5], ["description", "."], ["start_date", "2017-11-28"], ["end_date", "2017-11-28"], ["total_hours_of_work", 5.0], ["created_at", "2017-11-28 16:23:06.549221"], ["updated_at", "2017-11-28 16:23:06.549221"]]
+  [1m[35m (98.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/activities/9
+Completed 302 Found in 283ms (ActiveRecord: 144.0ms)
+
+
+Started GET "/activities/9" for 127.0.0.1 at 2017-11-28 17:23:06 +0100
+Processing by ActivitiesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering activities/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 70ms (Views: 55.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/activities/" for 127.0.0.1 at 2017-11-28 17:23:14 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/activities/9/edit" for 127.0.0.1 at 2017-11-28 17:23:20 +0100
+Processing by ActivitiesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mActivity Load (0.2ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering activities/edit.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (13.7ms)
+  Rendered activities/edit.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 62ms (Views: 59.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/activities:id" for 127.0.0.1 at 2017-11-28 17:23:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/activities:id"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/activities_path" for 127.0.0.1 at 2017-11-28 17:24:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/activities_path"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-28 17:32:44 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 18:49:42 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 349ms (Views: 340.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-11-28 18:49:48 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  Rendered bills/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 104ms (Views: 71.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-28 18:49:50 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 104ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2017-11-28 18:50:09 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/" for 127.0.0.1 at 2017-11-28 18:50:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-04 17:08:40 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 634ms (Views: 622.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 17:08:43 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (18.8ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (108.7ms)
+Completed 200 OK in 188ms (Views: 132.3ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/activitie" for 127.0.0.1 at 2017-12-04 17:09:05 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/activitie"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 17:16:51 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 17:16:56 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-12-04 17:16:58 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2017-12-04 17:16:59 +0100
+Processing by CustomersController#new as HTML
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (39.3ms)
+  Rendered customers/new.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 92ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer" for 127.0.0.1 at 2017-12-04 17:26:49 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/customer"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/customers" for 127.0.0.1 at 2017-12-04 17:30:17 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 72ms (Views: 69.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 17:30:20 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 17:30:22 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-12-04 17:30:23 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (14.3ms)
+  Rendered activities/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2017-12-04 18:40:16 +0100
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vbQ5itL7QkZ0rbg2RVr0qrvgoMSx8xR+/M24gDn0WkbNMIvyNXvBTHR6aaUjqwgQEcz8KQeczJSY43wicj/FNQ==", "activity"=>{"customer_id"=>"5", "description"=>"", "start_date(1i)"=>"2017", "start_date(2i)"=>"12", "start_date(3i)"=>"4", "end_date(1i)"=>"2017", "end_date(2i)"=>"12", "end_date(3i)"=>"4", "total_hours_of_work"=>""}, "commit"=>"Create Activity"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (18.7ms)
+  Rendered activities/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 75ms (Views: 63.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 18:46:16 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 18:46:17 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (10.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  Rendered bills/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 70ms (Views: 53.8ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-04 18:46:20 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (11.6ms)
+  Rendered bills/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 84ms (Views: 57.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-04 19:18:23 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (11.7ms)
+  Rendered bills/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 19:22:32 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-12-04 19:22:34 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2017-12-04 19:22:36 +0100
+Processing by CustomersController#new as HTML
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (6.8ms)
+  Rendered customers/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 19:22:39 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 62ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 19:22:40 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-12-04 19:22:41 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (10.7ms)
+  Rendered activities/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 20:48:39 +0100
+  [1m[35m (17.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (59.5ms)
+Completed 200 OK in 589ms (Views: 561.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 20:48:44 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/activities/9" for 127.0.0.1 at 2017-12-04 20:48:47 +0100
+Processing by ActivitiesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering activities/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 58ms (Views: 53.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/activitie" for 127.0.0.1 at 2017-12-04 20:48:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/activitie"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-04 20:53:31 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-12-04 20:53:33 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 20:53:38 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 20:53:39 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.5ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/activities/9/edit" for 127.0.0.1 at 2017-12-04 20:53:43 +0100
+Processing by ActivitiesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering activities/edit.html.erb within layouts/application
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (42.4ms)
+  Rendered activities/edit.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 116ms (Views: 111.4ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/activities/9" for 127.0.0.1 at 2017-12-04 20:53:51 +0100
+Processing by ActivitiesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DjzOgb56vzb4InksQAlpZFvGXV5R28BlRU7r8AqcARqJg9LJveFwnVJekOXpbchBV+su5IGjxABFWpPSYPrqng==", "activity"=>{"customer_id"=>"5", "description"=>".", "start_date(1i)"=>"2017", "start_date(2i)"=>"11", "start_date(3i)"=>"28", "end_date(1i)"=>"2017", "end_date(2i)"=>"11", "end_date(3i)"=>"28", "total_hours_of_work"=>"10.0"}, "commit"=>"Update Activity", "id"=>"9"}
+  [1m[36mActivity Load (0.2ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "activities" SET "total_hours_of_work" = ?, "updated_at" = ? WHERE "activities"."id" = ?[0m  [["total_hours_of_work", 10.0], ["updated_at", "2017-12-04 19:53:51.625254"], ["id", 9]]
+  [1m[35m (170.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/activities/9
+Completed 302 Found in 184ms (ActiveRecord: 171.4ms)
+
+
+Started GET "/activities/9" for 127.0.0.1 at 2017-12-04 20:53:51 +0100
+Processing by ActivitiesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering activities/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/show.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 20:53:53 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 20:53:54 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  Rendered bills/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 83ms (Views: 74.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-04 20:54:34 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (13.3ms)
+  Rendered bills/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 98ms (Views: 60.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/bills" for 127.0.0.1 at 2017-12-04 20:54:51 +0100
+Processing by BillsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qAec45ZMI9rUft0yGChPIX5FJj0FDL9p/QoaVFP6UMSR3q3TEtDuu1M5C2R1VDVy/mHZ08yaztpH4U+Yw8HKww==", "bill"=>{"customer_id"=>"5", "date_of_issue(1i)"=>"2017", "date_of_issue(2i)"=>"12", "date_of_issue(3i)"=>"4", "terms_of_payment"=>"at invoice sigh", "hourly_rate"=>"5.0", "tax_rate"=>"22", "withholding"=>"20", "discount"=>"0", "paid"=>"no"}, "commit"=>"Create Bill"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (32.9ms)[0m  [1m[32mINSERT INTO "bills" ("customer_id", "date_of_issue", "terms_of_payment", "hourly_rate", "tax_rate", "withholding", "discount", "paid", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["customer_id", 5], ["date_of_issue", "2017-12-04"], ["terms_of_payment", "at invoice sigh"], ["hourly_rate", 5.0], ["tax_rate", 22], ["withholding", 20], ["discount", 0], ["paid", "no"], ["created_at", "2017-12-04 19:54:51.190455"], ["updated_at", "2017-12-04 19:54:51.190455"]]
+  [1m[35m (95.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/bills/12
+Completed 302 Found in 147ms (ActiveRecord: 129.0ms)
+
+
+Started GET "/bills/12" for 127.0.0.1 at 2017-12-04 20:54:51 +0100
+Processing by BillsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBill Load (0.4ms)[0m  [1m[34mSELECT  "bills".* FROM "bills" WHERE "bills"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering bills/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.5ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/show.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 65ms (Views: 59.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 20:54:54 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.5ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.5ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 21:04:46 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.5ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.5ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 75ms (Views: 71.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-04 21:04:48 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (20.0ms)
+  Rendered bills/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/bills" for 127.0.0.1 at 2017-12-04 21:04:52 +0100
+Processing by BillsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/rL4o4CHjaYSgsxWAceFu+RI9S3S0jYmEj8nY3dvjjTHa8mTBBtAx5XFGgBsu//oZGwKwxtER5Wo1HKv51QUMw==", "bill"=>{"customer_id"=>"5", "date_of_issue(1i)"=>"2017", "date_of_issue(2i)"=>"12", "date_of_issue(3i)"=>"4", "terms_of_payment"=>"at invoice sigh", "hourly_rate"=>"", "tax_rate"=>"21", "withholding"=>"20", "discount"=>"", "paid"=>"no"}, "commit"=>"Create Bill"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (14.8ms)
+  Rendered bills/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 78ms (Views: 59.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-04 21:11:08 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 21:11:10 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.5ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.2ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 77ms (Views: 73.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/bills/12" for 127.0.0.1 at 2017-12-04 21:11:16 +0100
+Processing by BillsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT  "bills".* FROM "bills" WHERE "bills"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering bills/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/bills/12/edit" for 127.0.0.1 at 2017-12-04 21:11:27 +0100
+Processing by BillsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT  "bills".* FROM "bills" WHERE "bills"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering bills/edit.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (12.5ms)
+  Rendered bills/edit.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 83ms (Views: 64.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 21:12:17 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.1ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 62ms (Views: 59.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-04 21:12:20 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.4ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.2ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 62ms (Views: 58.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/bills/12" for 127.0.0.1 at 2017-12-04 21:13:36 +0100
+Processing by BillsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT  "bills".* FROM "bills" WHERE "bills"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering bills/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/bills/12/edit" for 127.0.0.1 at 2017-12-04 21:13:50 +0100
+Processing by BillsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT  "bills".* FROM "bills" WHERE "bills"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering bills/edit.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (14.8ms)
+  Rendered bills/edit.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/bill" for 127.0.0.1 at 2017-12-04 21:17:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/bill"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/activities" for 127.0.0.1 at 2017-12-04 22:16:08 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (7.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 178ms (Views: 168.3ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-12-04 22:16:15 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (11.0ms)
+  Rendered activities/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-05 16:58:59 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 567ms (Views: 558.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-05 16:59:02 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (114.5ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (177.9ms)
+Completed 200 OK in 257ms (Views: 124.2ms | ActiveRecord: 118.5ms)
+
+
+Started GET "/activities/9" for 127.0.0.1 at 2017-12-05 16:59:06 +0100
+Processing by ActivitiesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT  "activities".* FROM "activities" WHERE "activities"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering activities/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 53ms (Views: 48.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/activities/" for 127.0.0.1 at 2017-12-05 16:59:16 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.4ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/activitie" for 127.0.0.1 at 2017-12-05 16:59:19 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/activitie"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/activitie" for 127.0.0.1 at 2017-12-05 17:02:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/activitie"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/activities" for 127.0.0.1 at 2017-12-05 17:38:41 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-12-05 17:38:46 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (30.7ms)
+  Rendered activities/new.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2017-12-05 17:38:47 +0100
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2xvHcNoI9ZGMHoKsRR9ICFJmd+anCQ8miVeF2ML45K8oyN5Hw8Ycp7e54Qw8BZY6LUXnWUOLPXmee5ZxA9V4xQ==", "activity"=>{"customer_id"=>"5", "description"=>"", "start_date(1i)"=>"2017", "start_date(2i)"=>"12", "start_date(3i)"=>"5", "end_date(1i)"=>"2017", "end_date(2i)"=>"12", "end_date(3i)"=>"5", "total_hours_of_work"=>""}, "commit"=>"Create Activity"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (12.1ms)
+  Rendered activities/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 73ms (Views: 64.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-05 17:55:54 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-12-05 18:04:35 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/customer" for 127.0.0.1 at 2017-12-05 18:04:39 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/customer"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/customers" for 127.0.0.1 at 2017-12-05 18:36:47 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-05 18:36:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-05 18:36:50 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 104ms (Views: 93.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-05 18:36:53 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (10.9ms)
+  Rendered bills/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 56ms (Views: 52.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-05 18:52:10 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 65ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-05 18:52:11 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (0.4ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (0.2ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 67ms (Views: 63.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-05 18:52:14 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (16.2ms)
+  Rendered bills/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 74ms (Views: 69.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 09:40:17 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 743ms (Views: 721.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2017-12-06 09:40:21 +0100
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (6.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 170ms (Views: 87.1ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2017-12-06 09:40:24 +0100
+Processing by CustomersController#new as HTML
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (123.6ms)
+  Rendered customers/new.html.erb within layouts/application (126.2ms)
+Completed 200 OK in 179ms (Views: 174.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers" for 127.0.0.1 at 2017-12-06 09:40:29 +0100
+Processing by CustomersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vnRNj2Ta/TPJ98yZkVFVSVclAFjtho4hGOJEzqswYLNzH1mUmPPvp0ZfwAXRlNeyYvd8Aq8Ww7z78oJrcORjqw==", "customer"=>{"name"=>"", "surname"=>"", "company"=>"", "phone_number"=>"", "address"=>"", "email"=>"", "vat_number"=>""}, "commit"=>"Create Customer"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (8.6ms)
+  Rendered customers/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 77ms (Views: 63.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 09:44:36 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2017-12-06 09:44:39 +0100
+Processing by ActivitiesController#index as HTML
+  Rendering activities/index.html.erb within layouts/application
+  [1m[36mActivity Load (12.6ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendered activities/index.html.erb within layouts/application (82.7ms)
+Completed 200 OK in 221ms (Views: 138.4ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2017-12-06 09:44:42 +0100
+Processing by ActivitiesController#new as HTML
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (111.6ms)
+  Rendered activities/new.html.erb within layouts/application (128.1ms)
+Completed 200 OK in 220ms (Views: 175.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2017-12-06 09:44:45 +0100
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sy+bXTuixOLSzhuCen+Unu5RqoatTwKZN4vSlb0JZ844slnYvSMD3KcWL9pfJY2OSyWgf15U39frNClDyETXFA==", "activity"=>{"customer_id"=>"5", "description"=>"", "start_date(1i)"=>"2017", "start_date(2i)"=>"12", "start_date(3i)"=>"6", "end_date(1i)"=>"2017", "end_date(2i)"=>"12", "end_date(3i)"=>"6", "total_hours_of_work"=>""}, "commit"=>"Create Activity"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering activities/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered activities/_form.html.erb (10.9ms)
+  Rendered activities/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 70ms (Views: 57.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 09:46:47 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 09:55:41 +0100
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bills" for 127.0.0.1 at 2017-12-06 09:55:43 +0100
+Processing by BillsController#index as HTML
+  Rendering bills/index.html.erb within layouts/application
+  [1m[36mBill Load (20.3ms)[0m  [1m[34mSELECT "bills".* FROM "bills"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mActivity Load (12.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("activities"."total_hours_of_work") FROM "activities" WHERE "activities"."customer_id" = ?[0m  [["customer_id", 5]]
+  Rendered bills/index.html.erb within layouts/application (117.9ms)
+Completed 200 OK in 282ms (Views: 131.2ms | ActiveRecord: 34.9ms)
+
+
+Started GET "/bills/new" for 127.0.0.1 at 2017-12-06 09:55:46 +0100
+Processing by BillsController#new as HTML
+  Rendering bills/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered bills/_form.html.erb (27.5ms)
+  Rendered bills/new.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 203ms (Views: 93.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-06 11:13:47 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 1436ms (Views: 1414.3ms | ActiveRecord: 0.0ms)
+
+
