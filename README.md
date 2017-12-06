@@ -19,4 +19,11 @@ In order to implement this app we used:
 - rails 5.1.4
 - Atom
 
-Attached to the app there are two file of user stories. The first was created before starting the project and the second after the creation of the Rails Skeleton App. We chose to write the second file, because we were new using rails and after we started using the framework we realized that the effort changed. You can find this file in the doc directory inside the app. 
+Attached to the app there are two file of user stories. The first was created before starting the project and the second after the creation of the Rails Skeleton App. We chose to write the second file, because we were new using rails and after we started using the framework we realized that the activities, the effort and the priority changed. You can find this file in the doc directory inside the project. 
+
+In order to test the app according to the Behaviour Driven Development paradigm, we add the gems:
+-  gem 'factory_bot_rails'
+-  gem 'ffaker'
+-  gem 'cucumber-rails'
+-  gem 'selenium-webdriver'
+We implement the test on the main functions and methods as edit, view, delete entities and the result of the methods.
