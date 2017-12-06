@@ -13,3 +13,10 @@ When you create an activity you have to choose from a select box, which contains
 
 When you want to know the total hours charged for a customer you have to create the bill. As for the activities you have to choose from a select box the customer. Each bill is characterized from the date of issue, the terms of payment, the hourly rate customizable for each customer, the tax rate, the withholding and the discount. 
 Thanks to the implementation of specific methods the app will sum all the hours of works related with the customer and it will provide you the taxable and the total cost to pay. When you change the total hours of works, you add an activity or you delete ones, the app will provide you automatically the new total hours, taxable and total cost. Once the customer paid you for that activities you can label it as paid. 
+
+In order to implement this app we used:
+- ruby 2.4.2
+- rails 5.1.4
+- Atom
+
+Attached to the app there are two file of user stories. The first was created before starting the project and the second after the creation of the Rails Skeleton App. We chose to write the second file, because we were new using rails and after we started using the framework we realized that the effort changed. You can find this file in the doc directory inside the app. 
