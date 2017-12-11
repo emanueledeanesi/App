@@ -28,3 +28,6 @@ In order to test the app according to the Behaviour Driven Development paradigm,
 -  gem 'selenium-webdriver'
 
 We implement the test on the main functions and methods as edit, view, delete entities and the result of the methods.
+In order to calculate the coverage of the implemented test we add the gem:
+-  gem 'simplecov'
+We reach a coverage of 95,94%. In order to reach a higher level of coverage we should implement some test about the bills. We didn't implement them, because they were similar to the test made on customers and activities.
