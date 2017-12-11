@@ -9,3 +9,6 @@ Feature: method total hours
   Scenario: amount hours worked
     Then I should see the right value of total_hours
     
+
+
+
